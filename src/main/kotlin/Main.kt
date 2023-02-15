@@ -1,8 +1,12 @@
 fun main() {
    strings()
-    me()
-    myDay()
+    val WholeSentence= structure("x","y")
+    println(WholeSentence)
+
+var x= String("tuesday")
+println(x)
     name()
+
 }
 
 fun strings() {
@@ -12,15 +16,21 @@ val school = "AkiraChix"
     println(school[3])
 }
 
-fun me () {
-val name = "x"
-    val age = "y"
-    println("Hi,my name is $name and i am $age years old" )}
+fun structure (name:String,age :String):String {
+    val WholeSentence = "Hi, my name is $name and i am $age years old."
+return WholeSentence
 
-fun myDay (){
-    val length = "tuesday"
-    println(length.length)
+
+
+    }
+fun String(day:String):Int{
+    val String= "tuesday"
+    return String.length
+
 }
+
+
+
 fun name (){
     val name= "bella"
     val names0= "bella"
